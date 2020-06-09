@@ -4,6 +4,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -31,20 +32,20 @@ class ReportPageTest {
     }
 
     @Test
-    void addDailyReport() {
+    void addDailyReport() throws InterruptedException {
         List<String> list=new ArrayList<String>();
-        list.add("日报测试");
-        list.add("日报测试");
-        list.add("日报测试");
-       assertTrue( wework.rp().add("日报",list).getReport().contains("日报测试"));
+        for(int i=0;i<3;i++) {
+            list.add("日报测试");
+        }
+        assertTrue( wework.rp().isExist("日报测试"));
     }
     @Test
-    void addWeeklyReport(){
+    void addWeeklyReport() throws InterruptedException {
         List<String> list=new ArrayList<String>();
-        list.add("周报测试");
-        list.add("周报测试");
-        list.add("周报测试");
-        assertTrue( wework.rp().add("周报",list).getReport().contains("周报测试"));
+        for(int i=0;i<3;i++) {
+            list.add("周报测试");
+        }
+        assertTrue( wework.rp().isExist("周报测试"));
     }
 
 }

@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class ReportPage extends BasePage {
 
     private final By save = byText("提交");
-    private final By conmit = By.id("b_O");
+    private final By conmit = byText("确定");
 
     public ReportPage(AppiumDriver driver) {
         super(driver);
@@ -18,7 +18,6 @@ public class ReportPage extends BasePage {
 
     public ReportPage add(String report, List<String> content) {
         click(report);
-//        driver.context("WEBVIEW_com.tencent.mm:appbrand0");
         for (int i = 1; i < 4; i++) {
             By taskName = By.xpath("//android.webkit.WebView[@content-desc=\"" + report + "\"]/android.widget.EditText[" + i + "]");
             String contentStr = content.get(i - 1);
@@ -26,13 +25,18 @@ public class ReportPage extends BasePage {
         }
         swipeDown();
         driver.findElement(By.xpath("//android.view.View[@content-desc=\"提交\"]")).click();
-        driver.context("NATIVE_APP");
         click(conmit);
         return this;
     }
 
-    public String getReport() {
-        return driver.findElement(By.xpath("//*[contains(@text,'今日工作')]/following-sibling::*[1]")).getText();
+    public  boolean isExist(String report) throws InterruptedException {
+        Thread.sleep(10);
+        try {
+            driver.findElementsByAccessibilityId(report);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }
 
