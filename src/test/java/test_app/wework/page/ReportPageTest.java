@@ -37,7 +37,7 @@ class ReportPageTest {
         for(int i=0;i<3;i++) {
             list.add("日报测试");
         }
-        assertTrue( wework.rp().isExist("日报测试"));
+        assertTrue(wework.rp().add("日报",list).isExist("日报测试"));
     }
     @Test
     void addWeeklyReport() throws InterruptedException {
@@ -45,7 +45,7 @@ class ReportPageTest {
         for(int i=0;i<3;i++) {
             list.add("周报测试");
         }
-        assertTrue( wework.rp().isExist("周报测试"));
+        assertTrue(wework.rp().add("周报",list).isExist("周报测试"));
     }
 
 }
