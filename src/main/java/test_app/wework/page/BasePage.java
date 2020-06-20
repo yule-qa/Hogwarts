@@ -98,9 +98,18 @@ public class BasePage<remoteUrl> {
     public int getHeight(double multiple){
         return (int) (driver.manage().window().getSize().height*multiple);
     }
+
     public void swipeDown()  {
-//        Thread.sleep(3000);
         new TouchAction(driver).press(PointOption.point(getWidth(0.5),getHeight(0.8))).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1))).moveTo(PointOption.point(getWidth(0.5),getHeight(0.2))).release().perform();
+    }
+
+    public boolean byElementIsExist(By by) {
+        try {
+            driver.findElement(by);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
 }
