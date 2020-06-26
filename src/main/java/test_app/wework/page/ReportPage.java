@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ReportPage extends BasePage {
+public class ReportPage extends AppBasePage {
 
     private final By save = byText("提交");
     private final By conmit = byText("确定");

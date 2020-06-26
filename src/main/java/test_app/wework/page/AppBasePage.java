@@ -10,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import test_framework.BasePage;
 
 
 import java.net.MalformedURLException;
@@ -17,23 +18,27 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class BasePage<remoteUrl> {
+public class AppBasePage<remoteUrl> extends BasePage {
     private final int timeOutInSecondsDefault =60;
     AppiumDriver<MobileElement> driver;
     WebDriverWait wait;
     String packageName; //"com.tencent.wework"
     String activityName; //".launch.LaunchSplashActivity"
 
-    public BasePage(String packageName,String activityName){
+    public AppBasePage() {
+    }
+
+    public AppBasePage(String packageName, String activityName){
         this.packageName=packageName;
         this.activityName=activityName;
         startApp(this.packageName,this.activityName);
     }
 
-    public BasePage(AppiumDriver<MobileElement> driver){
+    public AppBasePage(AppiumDriver<MobileElement> driver){
         this.driver=driver;
         wait =new WebDriverWait(driver,timeOutInSecondsDefault);
     }
+
 
     public void startApp(String packageName,String activityName){
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();

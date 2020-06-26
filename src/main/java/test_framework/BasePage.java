@@ -8,22 +8,39 @@ import java.util.HashMap;
 
 public class BasePage {
     public void click(HashMap<String,Object> map){
-//        driver.findElement(By.).click
+          System.out.println("basePage click");
+          System.out.println(map);
+//        run调用后， 交给子类重写（覆盖）此方法，实际操作
 
     }
+    public void sendKeys(HashMap<String,Object> map){
+           System.out.println("basePage sendKeys");
+           System.out.println(map);
+    }
+    public void action(HashMap<String,Object> map){
+            System.out.println("basePage action");
+            System.out.println(map) ;
+    }
+
     public void find(){
 
     }
-    public void send(){
 
-    }
     public void getText(){
 
     }
     public void run(UIAuto uiAuto){
         uiAuto.steps.stream().forEach(m ->{
-            if(m.keySet().contains("click")){
-                click((HashMap<String,Object>)m.get("click"));
+
+            if(m.containsKey("click")){
+                HashMap<String,Object> by= (HashMap<String, Object>) m.get("click");
+                  click(by);
+            }
+            if(m.containsKey("sendKeys")){
+                  sendKeys(m);
+            }
+            if(m.containsKey("action")){
+                  action(m);
             }
         });
     }

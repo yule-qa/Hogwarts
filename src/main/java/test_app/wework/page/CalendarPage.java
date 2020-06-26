@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class CalendarPage extends BasePage{
+public class CalendarPage extends AppBasePage{
     private final By taskName=By.id("b2k");
     private final By save=byText("保存");
 //    private final By taskList=By.id("gug");

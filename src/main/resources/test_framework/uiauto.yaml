@@ -1,0 +1,32 @@
+name: xxx
+description: xxx
+steps:
+#  基本自动化领域模型
+#  业务模型
+#方法一： 这个方法比较low
+#  - method: click
+#    params: [1,2]
+##方法二：
+#  - action: click
+#    by: id
+#    locator: search
+##方法三：
+#  - action: click
+#    id: click
+#  - click:{id: search}
+#简化格式
+#  - by: uai expr
+#    value: search
+#    action: click
+#进一步简化
+#  - id: search
+#    action: click
+#  - id: search
+#    action: sendKeys
+#    text: "seveniruby hogwarts"
+  - id: search
+    sendKeys: "seveniruby hogwarts"
+  - click: {id: search}
+  - id: search
+    action: getText
+    key: search_test

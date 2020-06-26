@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Sleeper;
 
 import java.time.Duration;
 
-public class Wework extends BasePage{
+public class Wework extends AppBasePage{
     public Wework() {
         super("com.tencent.wework", ".launch.LaunchSplashActivity");
     }
