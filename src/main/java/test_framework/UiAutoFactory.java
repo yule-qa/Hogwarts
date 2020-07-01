@@ -3,7 +3,7 @@ package test_framework;
 import test_app.wework.page.AppBasePage;
 import test_web.wework.page.WebBasePage;
 
-public class Factory {
+public class UiAutoFactory {
     public static BasePage create(String driverName){
         if(driverName=="web"||driverName=="selenium"){
             return new WebBasePage();

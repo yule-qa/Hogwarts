@@ -1,0 +1,10 @@
+name: contact
+methods:
+  search:
+    - click: {linkText: 最新}
+    - click: {linkText: 热门}
+
+#  getUserName:
+#    - action: contact_page_getUserName_action
+#      id: contact_page_getUserName_id
+#      save: contact_page_getUserName_save

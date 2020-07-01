@@ -1,0 +1,8 @@
+name: xxx
+description: xxx
+steps:
+#  - get: https://ceshiren.com
+  - action: get
+    url: https://ceshiren.com
+  - click: {linkText: 测试内推}
+  - click: {linkText: 开源项目}

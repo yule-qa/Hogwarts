@@ -1,0 +1,20 @@
+name: main
+methods:
+  init:
+    - action: get
+      url: https://ceshiren.com
+
+  visit:
+    - click: {linkText: 开源项目}
+    - click: {linkText: 测试内推}
+#  toSearch:
+#    - click: {id: main_page_toSearch_click_id}
+#    - click: {xpath: main_page_toSearch_click_xpath}
+#    - id: main_page_toSearch_id
+#      sendKeys: "main_page_toSearch_sendKeys"
+#
+#  Search:
+#    - click: {id: main_page_Search_click_id}
+#    - click: {xpath: main_page_Search_click_xpath}
+#    - id: main_page_Search_id
+#      sendKeys: "main_page_Search_sendKeys"

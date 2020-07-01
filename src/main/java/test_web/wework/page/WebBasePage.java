@@ -62,10 +62,11 @@ import java.util.concurrent.TimeUnit;
         @Override
         public void action(HashMap<String, Object> map) {
             super.action(map);
-            if(map.get("action").toString().toLowerCase().equals("get")){
-                driver.get(map.get("url").toString());
-            }else {
-                System.out.println("get获取失败");
+            if(map.containsKey("action")) {
+                String action = map.get("action").toString().toLowerCase();
+                if (action.equals("get")) {
+                    driver.get(map.get("url").toString());
+                }
             }
         }
     }

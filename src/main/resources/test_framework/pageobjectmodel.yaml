@@ -1,0 +1,12 @@
+name: xxx
+description: xxx
+steps:
+#  这个可以
+  - page: main
+    action: init
+
+  - page: main
+    action: visit
+
+  - page: contact
+    action: search

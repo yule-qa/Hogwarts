@@ -7,10 +7,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 class BasePageTest {
     private static BasePage basePage;
     @BeforeAll
@@ -39,5 +35,12 @@ class BasePageTest {
         System.out.println(mapper.writeValueAsString(uiAuto));
     }
 
+    @Test
+    void Pom(){
+        basePage.loadPages("src/main/resources/test_framework");
+        UIAuto uiAuto=basePage.load("/test_framework/pageobjectmodel.yaml");
+        basePage.run(uiAuto);
+
+    }
 
 }

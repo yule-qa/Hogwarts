@@ -1,0 +1,8 @@
+name: xxx
+description: xxx
+steps:
+#  - get: https://ceshiren.com
+  - action: get
+    url: https://ceshiren.com
+  - click: {linkText: 最新}
+  - click: {linkText: 热门}
