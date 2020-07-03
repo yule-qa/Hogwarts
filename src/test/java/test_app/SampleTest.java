@@ -1,3 +1,13 @@
+/**
+ * 运行脚本前，启动2步
+ * 1.启动appium server  方法1.1 或则 1.2
+ *   1.1终端输入appium
+ *   1.2点击appium桌面图标,启动服务器， 如果想启动desktop选择放大器
+ * 2.启动模拟器
+ *  2.1可以选择mumu
+ *  2.2也可以选择android studio自带的模拟器，命令行找到安卓目录下
+ *  /Users/christbella/Library/Android/sdk/tools,执行启动命令：emulator @Nexus_5_API_24 @后加的是机器名称
+ */
 package test_app;
 
 import io.appium.java_client.AppiumDriver;
