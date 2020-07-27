@@ -1,0 +1,147 @@
+2020-07-20 10:23:30 INFO  ThreadTest:23 - 线程号15==> 装入坚果01
+
+2020-07-20 10:23:30 INFO  ThreadTest:23 - 线程号13==> 装入坚果01
+
+2020-07-20 10:23:30 INFO  ThreadTest:32 - 线程号14==> 装入坚果02
+
+2020-07-20 10:23:30 INFO  ThreadTest:32 - 线程号16==> 装入坚果02
+
+2020-07-20 10:23:34 INFO  ThreadTest:23 - 线程号15==> 装入坚果01
+
+2020-07-20 10:23:34 INFO  ThreadTest:23 - 线程号13==> 装入坚果01
+
+2020-07-20 10:23:34 INFO  ThreadTest:32 - 线程号14==> 装入坚果02
+
+2020-07-20 10:23:34 INFO  ThreadTest:23 - 线程号16==> 装入坚果01
+
+2020-07-20 10:23:37 INFO  ThreadTest:23 - 线程号15==> 装入坚果01
+
+2020-07-20 10:23:37 INFO  ThreadTest:32 - 线程号17==> 装入坚果02
+
+2020-07-20 10:23:37 INFO  ThreadTest:32 - 线程号14==> 装入坚果02
+
+2020-07-20 10:23:37 INFO  ThreadTest:23 - 线程号16==> 装入坚果01
+
+2020-07-20 10:23:37 INFO  ThreadTest:23 - 线程号18==> 装入坚果01
+
+2020-07-20 10:23:40 INFO  ThreadTest:32 - 线程号17==> 装入坚果02
+
+2020-07-20 10:23:40 INFO  ThreadTest:23 - 线程号19==> 装入坚果01
+
+2020-07-20 10:23:40 INFO  ThreadTest:23 - 线程号15==> 装入坚果01
+
+2020-07-20 10:23:40 INFO  ThreadTest:32 - 线程号20==> 装入坚果02
+
+2020-07-20 10:23:40 INFO  ThreadTest:32 - 线程号16==> 装入坚果02
+
+2020-07-20 10:23:40 INFO  ThreadTest:32 - 线程号18==> 装入坚果02
+
+2020-07-20 10:23:43 INFO  ThreadTest:32 - 线程号17==> 装入坚果02
+
+2020-07-20 10:45:46 INFO  ThreadTest:32 - 线程号14==> 装入坚果02
+
+2020-07-20 10:45:46 INFO  ThreadTest:23 - 线程号15==> 装入坚果01
+
+2020-07-20 10:45:46 INFO  ThreadTest:32 - 线程号16==> 装入坚果02
+
+2020-07-20 10:45:46 INFO  ThreadTest:23 - 线程号13==> 装入坚果01
+
+2020-07-20 10:45:46 INFO  ThreadTest:32 - 线程号12==> 装入坚果02
+
+2020-07-20 10:45:50 INFO  ThreadTest:23 - 线程号14==> 装入坚果01
+
+2020-07-20 10:45:50 INFO  ThreadTest:32 - 线程号16==> 装入坚果02
+
+2020-07-20 10:45:50 INFO  ThreadTest:23 - 线程号13==> 装入坚果01
+
+2020-07-20 10:45:50 INFO  ThreadTest:32 - 线程号15==> 装入坚果02
+
+2020-07-20 10:45:50 INFO  ThreadTest:32 - 线程号17==> 装入坚果02
+
+2020-07-20 10:45:53 INFO  ThreadTest:23 - 线程号13==> 装入坚果01
+
+2020-07-20 10:45:53 INFO  ThreadTest:32 - 线程号14==> 装入坚果02
+
+2020-07-20 10:45:53 INFO  ThreadTest:32 - 线程号18==> 装入坚果02
+
+2020-07-20 10:45:53 INFO  ThreadTest:32 - 线程号16==> 装入坚果02
+
+2020-07-20 10:45:53 INFO  ThreadTest:32 - 线程号15==> 装入坚果02
+
+2020-07-20 10:45:53 INFO  ThreadTest:23 - 线程号17==> 装入坚果01
+
+2020-07-20 10:45:56 INFO  ThreadTest:23 - 线程号16==> 装入坚果01
+
+2020-07-20 10:45:56 INFO  ThreadTest:23 - 线程号18==> 装入坚果01
+
+2020-07-20 10:45:56 INFO  ThreadTest:23 - 线程号19==> 装入坚果01
+
+2020-07-20 10:45:56 INFO  ThreadTest:23 - 线程号14==> 装入坚果01
+
+2020-07-20 10:56:18 INFO  ThreadTest:35 - 线程号14==> 装入坚果02
+
+2020-07-20 10:56:18 INFO  ThreadTest:35 - 线程号16==> 装入坚果02
+
+2020-07-20 10:56:18 INFO  ThreadTest:26 - 线程号15==> 装入坚果01
+
+2020-07-20 10:56:18 INFO  ThreadTest:26 - 线程号13==> 装入坚果01
+
+2020-07-20 10:56:18 INFO  ThreadTest:35 - 线程号12==> 装入坚果02
+
+2020-07-20 10:56:21 INFO  ThreadTest:35 - 线程号15==> 装入坚果02
+
+2020-07-20 10:56:21 INFO  ThreadTest:35 - 线程号16==> 装入坚果02
+
+2020-07-20 10:56:21 INFO  ThreadTest:26 - 线程号14==> 装入坚果01
+
+2020-07-20 10:56:21 INFO  ThreadTest:26 - 线程号13==> 装入坚果01
+
+2020-07-20 10:56:21 INFO  ThreadTest:35 - 线程号17==> 装入坚果02
+
+2020-07-20 10:56:24 INFO  ThreadTest:26 - 线程号13==> 装入坚果01
+
+2020-07-20 10:56:24 INFO  ThreadTest:35 - 线程号15==> 装入坚果02
+
+2020-07-20 10:56:24 INFO  ThreadTest:35 - 线程号18==> 装入坚果02
+
+2020-07-20 10:56:24 INFO  ThreadTest:35 - 线程号16==> 装入坚果02
+
+2020-07-20 10:56:24 INFO  ThreadTest:35 - 线程号14==> 装入坚果02
+
+2020-07-20 10:56:24 INFO  ThreadTest:26 - 线程号17==> 装入坚果01
+
+2020-07-20 10:56:27 INFO  ThreadTest:26 - 线程号19==> 装入坚果01
+
+2020-07-20 10:56:27 INFO  ThreadTest:26 - 线程号15==> 装入坚果01
+
+2020-07-20 10:56:27 INFO  ThreadTest:26 - 线程号18==> 装入坚果01
+
+2020-07-20 10:56:27 INFO  ThreadTest:26 - 线程号16==> 装入坚果01
+
+2020-07-20 11:14:49 INFO  WechatThreadTest:22 - QDc3wWr5bSQ9M76UMLqbVXhnZanXbs3zYYBqS7Q5IbMgPNuOKbLiE3bQSuGTgpb8TunSW5vpyxq2gVw3JJI0gh_Dy31iQu5nVD6049nBURpIUhEFrtNnjQZPavZisMK9qvYufOETKvlVwdLkAgctNzRroT9j0338SQ3BayEkuCcOF7pZQ_hAfEVwUITa3qh5a3ksUCtwamQaqWSjShem2Q
+2020-07-20 11:16:55 INFO  WechatThreadTest:22 - QDc3wWr5bSQ9M76UMLqbVXhnZanXbs3zYYBqS7Q5IbMgPNuOKbLiE3bQSuGTgpb8TunSW5vpyxq2gVw3JJI0gh_Dy31iQu5nVD6049nBURpIUhEFrtNnjQZPavZisMK9qvYufOETKvlVwdLkAgctNzRroT9j0338SQ3BayEkuCcOF7pZQ_hAfEVwUITa3qh5a3ksUCtwamQaqWSjShem2Q
+2020-07-20 11:18:59 INFO  WechatThreadTest:22 - QDc3wWr5bSQ9M76UMLqbVXhnZanXbs3zYYBqS7Q5IbMgPNuOKbLiE3bQSuGTgpb8TunSW5vpyxq2gVw3JJI0gh_Dy31iQu5nVD6049nBURpIUhEFrtNnjQZPavZisMK9qvYufOETKvlVwdLkAgctNzRroT9j0338SQ3BayEkuCcOF7pZQ_hAfEVwUITa3qh5a3ksUCtwamQaqWSjShem2Q
+2020-07-20 11:20:01 INFO  WechatThreadTest:22 - QDc3wWr5bSQ9M76UMLqbVXhnZanXbs3zYYBqS7Q5IbMgPNuOKbLiE3bQSuGTgpb8TunSW5vpyxq2gVw3JJI0gh_Dy31iQu5nVD6049nBURpIUhEFrtNnjQZPavZisMK9qvYufOETKvlVwdLkAgctNzRroT9j0338SQ3BayEkuCcOF7pZQ_hAfEVwUITa3qh5a3ksUCtwamQaqWSjShem2Q
+2020-07-20 11:39:57 INFO  WechatThreadTest01:29 - QDc3wWr5bSQ9M76UMLqbVXhnZanXbs3zYYBqS7Q5IbMgPNuOKbLiE3bQSuGTgpb8TunSW5vpyxq2gVw3JJI0gh_Dy31iQu5nVD6049nBURpIUhEFrtNnjQZPavZisMK9qvYufOETKvlVwdLkAgctNzRroT9j0338SQ3BayEkuCcOF7pZQ_hAfEVwUITa3qh5a3ksUCtwamQaqWSjShem2Q
+2020-07-20 21:53:03 INFO  log:169 - Logging initialized @6127ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-20 21:53:03 INFO  Server:360 - jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 1.8.0_251-b08
+2020-07-20 21:53:04 INFO  ContextHandler:849 - Started o.e.j.s.ServletContextHandler@1a500561{/__admin,null,AVAILABLE}
+2020-07-20 21:53:04 INFO  ContextHandler:849 - Started o.e.j.s.ServletContextHandler@77c10a5f{/,null,AVAILABLE}
+2020-07-20 21:53:04 INFO  AbstractConnector:331 - Started NetworkTrafficServerConnector@20ab3e3a{HTTP/1.1, (http/1.1)}{0.0.0.0:8089}
+2020-07-20 21:53:04 INFO  Server:400 - Started @6693ms
+2020-07-20 21:53:04 INFO  __admin:2295 - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned 'null'
+2020-07-20 21:53:45 INFO  ROOT:2295 - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2020-07-20 21:55:27 INFO  log:169 - Logging initialized @5034ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-20 21:55:27 INFO  Server:360 - jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 1.8.0_251-b08
+2020-07-20 21:55:27 INFO  ContextHandler:849 - Started o.e.j.s.ServletContextHandler@329548d0{/__admin,null,AVAILABLE}
+2020-07-20 21:55:27 INFO  ContextHandler:849 - Started o.e.j.s.ServletContextHandler@513b52af{/,null,AVAILABLE}
+2020-07-20 21:55:28 INFO  AbstractConnector:331 - Started NetworkTrafficServerConnector@3dfa819{HTTP/1.1, (http/1.1)}{0.0.0.0:8089}
+2020-07-20 21:55:28 INFO  Server:400 - Started @5508ms
+2020-07-20 21:55:28 INFO  __admin:2295 - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned 'null'
+2020-07-20 21:57:54 INFO  log:169 - Logging initialized @4945ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-20 21:57:55 INFO  Server:360 - jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 1.8.0_251-b08
+2020-07-20 21:57:55 INFO  ContextHandler:849 - Started o.e.j.s.ServletContextHandler@29b40b3{/__admin,null,AVAILABLE}
+2020-07-20 21:57:55 INFO  ContextHandler:849 - Started o.e.j.s.ServletContextHandler@3bed3315{/,null,AVAILABLE}
+2020-07-20 21:57:55 INFO  AbstractConnector:331 - Started NetworkTrafficServerConnector@3dfa819{HTTP/1.1, (http/1.1)}{0.0.0.0:8089}
+2020-07-20 21:57:55 INFO  Server:400 - Started @5454ms
+2020-07-20 21:57:56 INFO  __admin:2295 - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler. Normalized mapped under returned 'null'

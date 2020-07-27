@@ -44,11 +44,11 @@ public class WebView {
     @Test
     public void webview_web() throws InterruptedException {
         driver.findElement(By.xpath("//*[@text='交易']")).click();
-//        for (int i = 0; i < 3; i++) {
-//            //这个能获取到手机里， 所有的webview 和native，和app没关系，而是手机里所有的
-//            driver.getContextHandles().forEach(context -> System.out.println(context.toString()));
-//            Thread.sleep(1000);
-//        }
+        for (int i = 0; i < 3; i++) {
+            //这个能获取到手机里， 所有的webview 和native，和app没关系，而是手机里所有的
+            driver.getContextHandles().forEach(context -> System.out.println(context.toString()));
+            Thread.sleep(1000);
+        }
             //切换到要测试的上下文
             driver.context(driver.getContextHandles().toArray()[1].toString());
 
@@ -56,7 +56,7 @@ public class WebView {
             driver.getWindowHandles().forEach(window -> {
                 System.out.println(window);
                 driver.switchTo().window(window);
-                System.out.println(driver.getPageSource());
+//                System.out.println(driver.getPageSource());
             });
 
             //切换到想要的窗口
