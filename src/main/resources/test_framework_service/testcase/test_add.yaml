@@ -1,0 +1,14 @@
+#ApiTestCaseModel
+name: testcase
+description: xxxxxxxx
+steps:
+    - api: wework
+      action: get_token
+    - api: tags
+      action: list
+      params:
+        tagid:[1,2,3]
+    - actual: 3
+      expect: 3
+      matcher: equalTo
+

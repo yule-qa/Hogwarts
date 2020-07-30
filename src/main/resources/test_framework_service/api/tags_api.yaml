@@ -1,0 +1,19 @@
+# ApiObjectModel
+name: tags
+methods:
+
+     list:
+     #ApiObjectMethodModle
+        get: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/get_corp_tag_list
+        query:
+            access_token: bhOArLeJANlOXBhKxq4W2u5ChY7FN9aOIUwui5ndblQE30aSlLAc_lmcXqopLtUYKzxY9HrmUgKIR53xMxdJ3NsS1LMyrwMt-TN1FwgeZk3RmysARkJgvN6hN_3v_zzLW4hEvSlcoE5gETXdD26NWwvTSo0gOSPZ_E6m5nshNjF1Q2WJxz2IHZQacULktni1Oxo76iF4j36WhZ3G0eKk4w
+        json:
+            tag_id: ["ww1d52a5ca803a44ec"]
+     add:
+      #ApiObjectMethodModle
+      # method: post
+      # url: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/add_corp_tag
+      # 以上两句可以精简成1步搞定，get 也同理
+        post: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/add_corp_tag
+        query:
+            access_token: token
